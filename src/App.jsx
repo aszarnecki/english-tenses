@@ -1215,10 +1215,14 @@ function isCorrect(ex, userInput) {
 // ─── PROGRESS / STORAGE ───────────────────────────────────────────────────
 function todayStr() { return new Date().toISOString().slice(0, 10); }
 async function safeGet(key) {
-  try { const r = await window.storage.get(key); return r ? JSON.parse(r.value) : null; } catch { return null; }
+  try {
+    const val = localStorage.getItem(key);
+    return val ? JSON.parse(val) : null;
+  } catch { return null; }
 }
+
 async function safeSet(key, val) {
-  try { await window.storage.set(key, JSON.stringify(val)); } catch {}
+  try { localStorage.setItem(key, JSON.stringify(val)); } catch {}
 }
 async function bumpStreak() {
   const streak = (await safeGet('p-streak')) || { lastDate: null, count: 0 };
