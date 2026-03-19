@@ -6,6 +6,7 @@ import { saveExerciseResult, saveSession } from './utils/storage.js';
 import S from './styles/index.js';
 import ExerciseCard from './components/ExerciseCard.jsx';
 import PassiveView from './components/PassiveView.jsx';
+import ConditionalsView from './components/ConditionalsView.jsx';
 import FlashcardsView from './components/FlashcardsView.jsx';
 import ProgressView from './components/ProgressView.jsx';
 import QuizSetup from './components/QuizSetup.jsx';
@@ -45,14 +46,14 @@ export default function App() {
     return { type, total: idxs.length, correct: idxs.filter(i => results[i]).length };
   }).filter(x => x.total > 0);
 
-  const tabs = [{ id: "overview", label: "📋 Przegląd" }, { id: "lessons", label: "📖 Lekcje" }, { id: "passive", label: "🔵 Strona Bierna" }, { id: "flashcards", label: "🃏 Fiszki" }, { id: "progress", label: "📊 Postęp" }, { id: "quiz", label: "🧠 Ćwiczenia" }];
+  const tabs = [{ id: "overview", label: "📋 Przegląd" }, { id: "lessons", label: "📖 Lekcje" }, { id: "passive", label: "🔵 Strona Bierna" }, { id: "conditionals", label: "🔀 Conditionals" }, { id: "flashcards", label: "🃏 Fiszki" }, { id: "progress", label: "📊 Postęp" }, { id: "quiz", label: "🧠 Ćwiczenia" }];
 
   return (
     <div style={S.app}>
       <div style={S.header}>
         <div style={S.logo}>Kurs Języka Angielskiego</div>
         <h1 style={S.title}>English Tenses</h1>
-        <p style={S.subtitle}>14 czasów · Strona Bierna · Fiszki · Postęp · Mylące Pary · A2–C1</p>
+        <p style={S.subtitle}>14 czasów · Strona Bierna · Conditionals · Fiszki · Postęp · A2–C1</p>
         <div style={S.nav}>
           {tabs.map(tab => (
             <button key={tab.id} style={S.navBtn(view === tab.id)} onClick={() => { setView(tab.id); if (tab.id === "quiz") setQuizState("setup"); }}>{tab.label}</button>
@@ -166,6 +167,8 @@ export default function App() {
         )}
 
         {view === "passive" && <PassiveView />}
+
+        {view === "conditionals" && <ConditionalsView />}
 
         {view === "flashcards" && <FlashcardsView />}
 
