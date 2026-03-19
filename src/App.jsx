@@ -557,7 +557,7 @@ const stories = [
       " arriving soon after. Anna ", { verb: "love", answer: "loves", hint: "love → loves" },
       " her job because she ", { verb: "meet", answer: "meets", hint: "meet → meets" }, " interesting people every day.",
     ],
-  },,
+  },
   {
     id: "lost-in-rome", title: "Zgubieni w Rzymie", emoji: "🏛️", level: "A2", focus: "Past Simple", color: "#E06B5C",
     intro: "Uzupełnij tekst właściwymi formami czasowników w przeszłości.",
@@ -573,7 +573,7 @@ const stories = [
       ". Finally, a kind man ", { verb: "show", answer: "showed", hint: "regularny → showed" },
       " us the way. We ", { verb: "be", answer: "were", hint: "be → were (l. mn.)" }, " so relieved!",
     ],
-  },,
+  },
   {
     id: "weekend-plans-a2", title: "Plany na weekend", emoji: "🎉", level: "A2", focus: "Future (going to + will)", color: "#5BAD6F",
     intro: "Uzupełnij rozmowę o planach. Użyj 'going to' lub 'will'.",
@@ -585,7 +585,7 @@ const stories = [
       " at home.\" \"Oh, that sounds nice. I think I ", { verb: "go", answer: "will go", hint: "Opinia/decyzja w tej chwili → will" },
       " to the cinema. Look — there ", { verb: "be", answer: "is going to be", hint: "Dowód (plakat) → going to" }, " a new film I want to see.\"",
     ],
-  },,
+  },
   {
     id: "at-the-market", title: "Na targu", emoji: "🛒", level: "A2", focus: "Present Simple", color: "#CF87D6",
     intro: "Uzupełnij tekst o cotygodniowej wizycie na targu.",
@@ -600,7 +600,7 @@ const stories = [
       " as fresh. The market vendors all ", { verb: "know", answer: "know", hint: "l. mn. → bezokolicznik" },
       " Marta by name and sometimes ", { verb: "give", answer: "give", hint: "give" }, " her free herbs.",
     ],
-  },,
+  },
   {
     id: "first-day-job", title: "Pierwszy dzień w pracy", emoji: "💼", level: "A2", focus: "Past Simple", color: "#4DAFAA",
     intro: "Uzupełnij historię o pierwszym dniu w nowej pracy.",
@@ -617,7 +617,7 @@ const stories = [
       " very friendly. After work I ", { verb: "call", answer: "called", hint: "regularny → called" },
       " my mum to tell her how the day ", { verb: "go", answer: "went", hint: "go → went" }, ".",
     ],
-  },,
+  },
   {
     id: "grandmothers-recipe", title: "Przepis babci", emoji: "🍰", level: "A2", focus: "Present Simple + Imperative", color: "#E8B84B",
     intro: "Babcia tłumaczy przepis na ciasto. Uzupełnij.",
@@ -632,7 +632,7 @@ const stories = [
       " about ten minutes by hand, but a mixer ", { verb: "work", answer: "works", hint: "Present Simple" },
       " much faster. Once the batter ", { verb: "be", answer: "is", hint: "Present Simple" }, " ready, you bake it at 180°C for 35 minutes.",
     ],
-  },,
+  },
   {
     id: "the-storm", title: "Burza w środku nocy", emoji: "⛈️", level: "B1", focus: "Past Simple + Past Continuous", color: "#4DAFAA",
     intro: "Uzupełnij historię. Zwróć uwagę na różnicę między czynnością trwającą a przerywającą.",
@@ -648,7 +648,7 @@ const stories = [
       ". He ", { verb: "grab", answer: "grabbed", hint: "regularny → grabbed" },
       " his phone. To his relief, it was only his cat, who ", { verb: "play", answer: "was playing", hint: "Past Continuous" }, " with a bag.",
     ],
-  },,
+  },
   {
     id: "the-interview", title: "Rozmowa kwalifikacyjna", emoji: "💼", level: "B1", focus: "Present Perfect + Present Simple", color: "#7C5CBF",
     intro: "Anna jest na rozmowie kwalifikacyjnej. Uzupełnij tekst.",
@@ -661,7 +661,7 @@ const stories = [
       " with clients in Germany. I ", { verb: "also / learn", answer: "have also learned", altAnswers: ["have also learnt"], hint: "Wynik nauki → Present Perfect" },
       " basic German, which ", { verb: "help", answer: "helps", hint: "Fakt ogólny → Present Simple 3. os." }, " a lot in meetings.\"",
     ],
-  },,
+  },
   {
     id: "holiday-mishap", title: "Katastrofa na wakacjach", emoji: "🏖️", level: "B1", focus: "Past Simple + Past Continuous", color: "#E8945A",
     intro: "Uzupełnij historię o nieudanych wakacjach.",
@@ -677,7 +677,7 @@ const stories = [
       " the whole afternoon at the police station while my husband ", { verb: "try", answer: "was trying", hint: "Past Continuous" },
       " to contact the embassy. It ", { verb: "not / be", answer: "wasn't", altAnswers: ["was not"], hint: "wasn't" }, " the holiday we'd planned!",
     ],
-  },,
+  },
   {
     id: "city-vs-country", title: "Miasto czy wieś?", emoji: "🌆", level: "B1", focus: "Used to / Would + Present Simple", color: "#A0B060",
     intro: "Mężczyzna porównuje życie dawne i obecne.",
@@ -693,7 +693,7 @@ const stories = [
       " time for long walks and I ", { verb: "rarely / see", answer: "rarely see", hint: "Present Simple + rarely" },
       " stars at night because of the light pollution. But I ", { verb: "earn", answer: "earn", hint: "Present Simple" }, " much more money!",
     ],
-  },,
+  },
   {
     id: "lost-passport", title: "Zgubiony paszport", emoji: "🛂", level: "B1", focus: "Present Perfect + Past Simple", color: "#9B6EBF",
     intro: "Uzupełnij dialog na lotnisku.",
@@ -709,7 +709,7 @@ const stories = [
       { verb: "happen", answer: "has happened", hint: "'this is the first time' → Present Perfect" },
       " to me. I ", { verb: "look", answer: "looked", hint: "Past Simple — już sprawdziłem" }, " everywhere in my bag but it's not there.\"",
     ],
-  },,
+  },
   {
     id: "cooking-disaster", title: "Kulinarny kataklizm", emoji: "🍳", level: "B1", focus: "Past Simple + Past Continuous", color: "#E06B5C",
     intro: "Uzupełnij historię o nieudanym gotowaniu.",
@@ -725,7 +725,7 @@ const stories = [
       " in fright and ", { verb: "knock", answer: "knocked", hint: "Past Simple" },
       " over a glass of wine. We ", { verb: "end up", answer: "ended up", hint: "Past Simple" }, " ordering pizza.",
     ],
-  },,
+  },
   {
     id: "travel-blog", title: "Blog podróżniczy", emoji: "✈️", level: "B1", focus: "Present Perfect + Present Simple", color: "#5B8EE6",
     intro: "Fragment bloga podróżniczego.",
@@ -740,7 +740,7 @@ const stories = [
       " to communicate. I ", { verb: "just / eat", answer: "have just eaten", hint: "just → Present Perfect" },
       " the best seafood of my life. If you ", { verb: "never / try", answer: "have never tried", hint: "Present Perfect z never" }, " fresh grilled sardines, you're missing out!",
     ],
-  },,
+  },
   {
     id: "job-application", title: "List motywacyjny", emoji: "📝", level: "B1", focus: "Present Perfect + Past Simple", color: "#7C5CBF",
     intro: "Fragment listu motywacyjnego. Uzupełnij właściwymi formami.",
@@ -752,7 +752,7 @@ const stories = [
       " website traffic by 150% within a year. I ", { verb: "complete", answer: "have recently completed", hint: "recently → Present Perfect" },
       " a course in data analytics, which I believe ", { verb: "strengthen", answer: "has strengthened", hint: "Present Perfect" }, " my skill set considerably.",
     ],
-  },,
+  },
   {
     id: "the-discovery", title: "Tajemnicze odkrycie", emoji: "🔍", level: "B2", focus: "Past Simple + Past Perfect", color: "#D4836A",
     intro: "Kryminał w muzeum. Zwróć uwagę na kolejność zdarzeń.",
@@ -765,7 +765,7 @@ const stories = [
       " anything. Kowalski discovered that the alarm system ", { verb: "not / work", answer: "hadn't been working", altAnswers: ["had not been working"], hint: "Past Perfect Continuous Passive" },
       " for three days. By the end of the day, he ", { verb: "identify", answer: "had identified", hint: "Past Perfect — przed końcem dnia" }, " the main suspect.",
     ],
-  },,
+  },
   {
     id: "better-future", title: "Plany na przyszłość", emoji: "🌟", level: "B2", focus: "Future forms (will / going to / FC / FP)", color: "#5BAD6F",
     intro: "Marek rozmawia o swoich planach. Użyj właściwych form przyszłościowych.",
@@ -778,7 +778,7 @@ const stories = [
       " enough to buy a flat. And I ", { verb: "learn", answer: "will have been learning", hint: "Czas trwania + punkt → FPC" },
       " Spanish for over a year, so I hope my skills ", { verb: "improve", answer: "will have improved", hint: "Future Perfect" }, " a lot.\"",
     ],
-  },,
+  },
   {
     id: "renovation", title: "Remont teatru", emoji: "🔨", level: "B2", focus: "Passive Voice", color: "#5B8EE6",
     intro: "Artykuł o remoncie budynku historycznego. Uzupełnij formami biernymi.",
@@ -792,7 +792,7 @@ const stories = [
       ". The work ", { verb: "complete", answer: "will be completed", hint: "Future Passive" },
       " by next spring. Tickets for the opening night can ", { verb: "buy", answer: "be bought", hint: "Modal Passive: can be + V3" }, " online.",
     ],
-  },,
+  },
   {
     id: "job-review", title: "Przegląd roczny", emoji: "📋", level: "B2", focus: "Present Perfect + Present Perfect Continuous", color: "#E8945A",
     intro: "Anna omawia z szefem wyniki rocznego przeglądu.",
@@ -806,7 +806,7 @@ const stories = [
       " for it?\" \"I ", { verb: "study", answer: "have been studying", hint: "PPC — nadal trwa" },
       " since January. I ", { verb: "pass", answer: "have passed", hint: "Wynik = Present Perfect" }, " the first two modules already.\"",
     ],
-  },,
+  },
   {
     id: "the-expedition", title: "Ekspedycja polarna", emoji: "🏔️", level: "B2", focus: "Past Simple + Past Perfect + Past Continuous", color: "#60B8C0",
     intro: "Dziennik z wyprawy. Używaj właściwych form.",
@@ -822,7 +822,7 @@ const stories = [
       ", someone ", { verb: "notice", answer: "noticed", hint: "Past Simple" },
       " that two team members ", { verb: "not / return", answer: "hadn't returned", altAnswers: ["had not returned"], hint: "Past Perfect" }, " yet. We were worried.",
     ],
-  },,
+  },
   {
     id: "career-change", title: "Zmiana kariery", emoji: "🔄", level: "B2", focus: "Mixed tenses", color: "#CF87D6",
     intro: "Wywiad z osobą, która zmieniła karierę. Uzupełnij tekst.",
@@ -837,7 +837,7 @@ const stories = [
       " my first restaurant. Now I ", { verb: "run", answer: "run", hint: "Present Simple" },
       " three restaurants and I ", { verb: "never / look", answer: "have never looked", hint: "Present Perfect + never" }, " back.\"",
     ],
-  },,
+  },
   {
     id: "the-reunion", title: "Spotkanie po latach", emoji: "🤝", level: "B2", focus: "Past Perfect + Past Simple + Used to", color: "#9B6EBF",
     intro: "Opis spotkania z dawnym przyjacielem.",
@@ -852,7 +852,7 @@ const stories = [
       " some weight. We ", { verb: "sit", answer: "sat", hint: "Past Simple" },
       " in a café and talked for hours. It ", { verb: "feel", answer: "felt", hint: "Past Simple" }, " like no time had passed.",
     ],
-  },,
+  },
   {
     id: "news-report", title: "Relacja z wypadku", emoji: "📰", level: "B2", focus: "Passive Voice (mixed tenses)", color: "#E06B5C",
     intro: "Fragment artykułu prasowego. Uzupełnij formami biernymi.",
@@ -867,7 +867,7 @@ const stories = [
       " to avoid the area. An investigation ", { verb: "launch", answer: "has been launched", hint: "Present Perfect Passive" },
       " and the cause of the fire ", { verb: "determine", answer: "will be determined", hint: "Future Passive" }, " soon.",
     ],
-  },,
+  },
   {
     id: "the-heist", title: "Skok na bank", emoji: "🏦", level: "B2", focus: "Past Simple + Past Perfect", color: "#8080D0",
     intro: "Kryminał. Uzupełnij tekst, dbając o kolejność zdarzeń.",
@@ -883,7 +883,7 @@ const stories = [
       " earlier, ", { verb: "not / ring", answer: "didn't ring", altAnswers: ["did not ring"], hint: "Past Simple" },
       ". The whole operation ", { verb: "take", answer: "took", hint: "Past Simple" }, " less than fifteen minutes.",
     ],
-  },,
+  },
   {
     id: "mystery-letter", title: "Tajemniczy list", emoji: "📬", level: "B2", focus: "Past Perfect + Past Simple", color: "#9B6EBF",
     intro: "Kobieta otrzymuje tajemniczy list. Uzupełnij.",
@@ -898,7 +898,7 @@ const stories = [
       " she had a great-uncle. He ", { verb: "live", answer: "had been living", hint: "PPC — przez jakiś czas" },
       " alone in that house for forty years. She later found out that he ", { verb: "search", answer: "had been searching", hint: "PPC" }, " for her her entire life.",
     ],
-  },,
+  },
   {
     id: "digital-detox", title: "Detoks cyfrowy", emoji: "📵", level: "B2", focus: "Mixed tenses", color: "#4DAFAA",
     intro: "Blog o tygodniu bez smartfona.",
@@ -913,7 +913,7 @@ const stories = [
       " completely. I ", { verb: "set", answer: "have set", hint: "Present Perfect" },
       " limits on my screen time and I ", { verb: "feel", answer: "have been feeling", hint: "PPC" }, " much better ever since.",
     ],
-  },,
+  },
   {
     id: "science-lab", title: "W laboratorium", emoji: "🔬", level: "C1", focus: "Mixed tenses + Passive", color: "#C07090",
     intro: "Raport naukowy. Użyj właściwych czasów.",
@@ -927,7 +927,7 @@ const stories = [
       " by independent labs, and no side effects ", { verb: "report", answer: "have been reported", hint: "Present Perfect Passive" },
       ". If the trials go well, the vaccine ", { verb: "approve", answer: "will be approved", hint: "Future Passive" }, " within two years.",
     ],
-  },,
+  },
   {
     id: "corporate-drama", title: "Dramat korporacyjny", emoji: "🏢", level: "C1", focus: "Past Perfect + Past Perfect Continuous + Passive", color: "#D4836A",
     intro: "Fragment thrillera korporacyjnego.",
@@ -940,7 +940,7 @@ const stories = [
       " well, and it showed. Evidence ", { verb: "gather", answer: "had been gathering", hint: "PPC Passive" },
       " since January and by that Tuesday, enough proof ", { verb: "compile", answer: "had been compiled", hint: "Past Perfect Passive" }, " to confront her.",
     ],
-  },,
+  },
   {
     id: "the-philosopher", title: "Filozoficzne rozważania", emoji: "🤔", level: "C1", focus: "Future Perfect + Future Continuous + FPC", color: "#8080D0",
     intro: "Esej filozoficzny o przyszłości. Użyj zaawansowanych form przyszłościowych.",
@@ -952,7 +952,7 @@ const stories = [
       " is the question that keeps philosophers awake. At that point, several generations ", { verb: "grow up", answer: "will have grown up", hint: "Future Perfect" },
       " in a world shaped by artificial intelligence. We ", { verb: "live", answer: "will have been living", hint: "FPC — czas trwania" }, " alongside machines for so long that the distinction between human and artificial may blur.",
     ],
-  },,
+  },
   {
     id: "whistle-blower", title: "Sygnalista", emoji: "🔔", level: "C1", focus: "Mixed tenses (all)", color: "#B060A0",
     intro: "Historia sygnalisty. Używaj mieszanych form.",
@@ -969,7 +969,7 @@ const stories = [
       " her job. Now the case ", { verb: "investigate", answer: "is being investigated", hint: "Present Continuous Passive" },
       " and three executives ", { verb: "arrest", answer: "have been arrested", hint: "Present Perfect Passive" }, ".",
     ],
-  },,
+  },
   {
     id: "ai-future", title: "Przyszłość sztucznej inteligencji", emoji: "🤖", level: "C1", focus: "Future forms + Passive", color: "#5B8EE6",
     intro: "Artykuł o przyszłości AI. Użyj zaawansowanych form.",
@@ -983,7 +983,7 @@ const stories = [
       " for so long by then that resistance will seem futile. The question is not whether AI ", { verb: "integrate", answer: "will be integrated", hint: "Future Passive" },
       " into society, but how it ", { verb: "govern", answer: "will be governed", hint: "Future Passive" }, ".",
     ],
-  },,
+  },
   {
     id: "unreliable-narrator", title: "Zawodny narrator", emoji: "📚", level: "C1", focus: "Past Perfect + PPC + Mixed", color: "#C07090",
     intro: "Fragment powieści psychologicznej. Narrator odkrywa że jego wspomnienia są niepewne.",
@@ -998,7 +998,7 @@ const stories = [
       " across the room, ", { verb: "pretend", answer: "had been pretending", hint: "PPC — przez całe życie" },
       " all this time. I ", { verb: "realise", answer: "realised", hint: "Past Simple" }, " then that the story I ", { verb: "tell", answer: "had been told", hint: "PPC Passive" }, " was fiction.",
     ],
-  },,
+  },
   {
     id: "startup-story", title: "Historia startupu", emoji: "🚀", level: "C1", focus: "Perfect tenses (all)", color: "#5BAD6F",
     intro: "Wywiad z założycielką startupu.",
