@@ -3,7 +3,7 @@ import S from '../styles/index.js';
 import { TYPE_LABELS, TYPE_COLORS, TYPE_ICONS } from '../data/exercises.js';
 import { tenses } from '../data/tenses.js';
 import { passiveTenses } from '../data/passive.js';
-import { normalize, isCorrect } from '../utils/helpers.js';
+import { isCorrect } from '../utils/helpers.js';
 
 export default function ExerciseCard({ ex, onResult, onNext, isLast }) {
   const [input, setInput] = useState("");

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import S from '../styles/index.js';
-import { normalize, isCorrect } from '../utils/helpers.js';
+import { normalize } from '../utils/helpers.js';
 import { saveExerciseResult } from '../utils/storage.js';
 
 export default function StoryPlayer({ story, onFinish }) {

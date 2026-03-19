@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
 import { tenses, LEVELS } from './data/tenses.js';
-import { allExercises, TYPE_LABELS, TYPE_COLORS, TYPE_ICONS } from './data/exercises.js';
-import { passiveExercises } from './data/passive.js';
-import { confusingPairs } from './data/confusingPairs.js';
-import { stories } from './data/stories.js';
+import { TYPE_LABELS, TYPE_COLORS, TYPE_ICONS } from './data/exercises.js';
 import { shuffle } from './utils/helpers.js';
-import { bumpStreak, saveExerciseResult, saveSession, safeGet } from './utils/storage.js';
+import { saveExerciseResult, saveSession } from './utils/storage.js';
 import S from './styles/index.js';
 import ExerciseCard from './components/ExerciseCard.jsx';
 import PassiveView from './components/PassiveView.jsx';
@@ -39,7 +36,7 @@ export default function App() {
       const mode = questions[0]?.pairId ? "pairs" : "quiz";
       saveSession({ score: finalScore, total: questions.length, mode });
     }
-  }, [quizState]);
+  }, [quizState]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const grouped = { A2: tenses.filter(t => t.level === "A2"), B1: tenses.filter(t => t.level === "B1"), B2: tenses.filter(t => t.level === "B2"), C1: tenses.filter(t => t.level === "C1") };
 

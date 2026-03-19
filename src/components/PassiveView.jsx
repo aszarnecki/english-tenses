@@ -2,7 +2,7 @@ import { useState } from "react";
 import S from '../styles/index.js';
 import { passiveTenses, passiveExercises } from '../data/passive.js';
 import { TYPE_LABELS, TYPE_COLORS, TYPE_ICONS } from '../data/exercises.js';
-import { shuffle, isCorrect } from '../utils/helpers.js';
+import { shuffle } from '../utils/helpers.js';
 import { saveExerciseResult, saveSession } from '../utils/storage.js';
 import ExerciseCard from './ExerciseCard.jsx';
 
@@ -16,12 +16,11 @@ export default function PassiveView() {
   const [score, setScore] = useState(0);
   const [results, setResults] = useState([]);
   const [streak, setStreak] = useState(0);
-  const [maxStreak, setMaxStreak] = useState(0);
   function toggleTense(id) { setSelTenses(p => p.includes(id) ? p.filter(x => x !== id) : [...p, id]); }
   const available = passiveExercises.filter(e => selTenses.includes(e.tenseId)).length;
-  function startQuiz(qs) { setQuestions(qs); setQIdx(0); setScore(0); setResults([]); setStreak(0); setMaxStreak(0); setQuizState("playing"); }
+  function startQuiz(qs) { setQuestions(qs); setQIdx(0); setScore(0); setResults([]); setStreak(0); setQuizState("playing"); }
   function handleResult(correct) {
-    if (correct) { setScore(s => s + 1); setStreak(s => { const ns = s + 1; setMaxStreak(m => Math.max(m, ns)); return ns; }); } else setStreak(0);
+    if (correct) { setScore(s => s + 1); setStreak(s => s + 1); } else setStreak(0);
     setResults(r => [...r, correct]);
     if (questions[qIdx]) saveExerciseResult(questions[qIdx].tenseId, correct);
   }

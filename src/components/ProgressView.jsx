@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import S from '../styles/index.js';
 import { tenses } from '../data/tenses.js';
 import { flashcardDecks, allFlashcards } from '../data/flashcards.js';
-import { loadProgress, safeGet } from '../utils/storage.js';
+import { loadProgress } from '../utils/storage.js';
 
 export default function ProgressView() {
   const [data, setData] = useState(null);
@@ -13,7 +13,7 @@ export default function ProgressView() {
   async function clearAll() {
     try {
       ['pt-stats','pf-stats','p-sessions','p-streak'].forEach(k => localStorage.removeItem(k));
-    } catch {}
+    } catch { /* ignore */ }
     setData({ tenseStats: {}, fcStats: {}, sessions: [], streak: { lastDate: null, count: 0 } });
     setConfirmClear(false);
   }

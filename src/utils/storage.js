@@ -8,7 +8,7 @@ export async function safeGet(key) {
 }
 
 export async function safeSet(key, val) {
-  try { localStorage.setItem(key, JSON.stringify(val)); } catch {}
+  try { localStorage.setItem(key, JSON.stringify(val)); } catch { /* ignore */ }
 }
 
 export async function bumpStreak() {
