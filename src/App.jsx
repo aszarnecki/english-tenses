@@ -8,6 +8,7 @@ import ExerciseCard from './components/ExerciseCard.jsx';
 import PassiveView from './components/PassiveView.jsx';
 import ConditionalsView from './components/ConditionalsView.jsx';
 import ReportedSpeechView from './components/ReportedSpeechView.jsx';
+import ModalVerbsView from './components/ModalVerbsView.jsx';
 import FlashcardsView from './components/FlashcardsView.jsx';
 import ProgressView from './components/ProgressView.jsx';
 import QuizSetup from './components/QuizSetup.jsx';
@@ -47,7 +48,7 @@ export default function App() {
     return { type, total: idxs.length, correct: idxs.filter(i => results[i]).length };
   }).filter(x => x.total > 0);
 
-  const tabs = [{ id: "overview", label: "📋 Przegląd" }, { id: "lessons", label: "📖 Lekcje" }, { id: "passive", label: "🔵 Strona Bierna" }, { id: "conditionals", label: "🔀 Conditionals" }, { id: "reported-speech", label: "💬 Mowa Zależna" }, { id: "flashcards", label: "🃏 Fiszki" }, { id: "progress", label: "📊 Postęp" }, { id: "quiz", label: "🧠 Ćwiczenia" }];
+  const tabs = [{ id: "overview", label: "📋 Przegląd" }, { id: "lessons", label: "📖 Lekcje" }, { id: "passive", label: "🔵 Strona Bierna" }, { id: "conditionals", label: "🔀 Conditionals" }, { id: "reported-speech", label: "💬 Mowa Zależna" }, { id: "modal-verbs", label: "⚙️ Modalne" }, { id: "flashcards", label: "🃏 Fiszki" }, { id: "progress", label: "📊 Postęp" }, { id: "quiz", label: "🧠 Ćwiczenia" }];
 
   return (
     <div style={S.app}>
@@ -172,6 +173,8 @@ export default function App() {
         {view === "conditionals" && <ConditionalsView />}
 
         {view === "reported-speech" && <ReportedSpeechView />}
+
+        {view === "modal-verbs" && <ModalVerbsView />}
 
         {view === "flashcards" && <FlashcardsView />}
 
